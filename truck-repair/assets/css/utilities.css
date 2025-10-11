@@ -7,6 +7,7 @@
 .card-lift {
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
+
 .card-lift:hover {
   transform: translateY(-4px);
   box-shadow:
@@ -29,7 +30,9 @@
   color: #cfe2ff;
 }
 
-.rounded-2xl { border-radius: 1.25rem !important; }
+.rounded-2xl {
+  border-radius: 1.25rem !important;
+}
 
 .glass {
   background: rgba(255, 255, 255, 0.04);
@@ -37,4 +40,3 @@
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
 }
-
